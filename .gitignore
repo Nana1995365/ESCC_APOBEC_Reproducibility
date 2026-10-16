@@ -1,0 +1,26 @@
+# Input datasets: excluded pending redistribution authorization
+/input/
+/data/
+/results/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
